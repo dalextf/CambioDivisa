@@ -27,6 +27,7 @@ public class CambioDivisa extends Application {
 
         segCant = new TextField();
         segCant.setPromptText("Cantidad");
+        segCant.setEditable(false);
 
         tipoMoneda1 = new ComboBox<String>();
         tipoMoneda1.getItems().addAll("Euro","Libra","Yen","Dolar");
